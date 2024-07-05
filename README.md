@@ -1,2 +1,44 @@
-# EcomSphere
-EcomSphere is a full-stack e-commerce website designed to provide a seamless shopping experience. Built using Java, Spring, and React, this project showcases modern web development practices and integrates various essential features for a robust e-commerce platform.
+# E-commerce Website
+
+This project is a full-stack e-commerce website developed using Java (Spring Boot) for the backend and React for the frontend. The application includes user authentication and authorization using OAuth and integrates a payment gateway using Stripe. The entire application is deployed on AWS using Docker and Kubernetes.
+
+## Features
+- User authentication and authorization using OAuth
+- Payment gateway integration with Stripe
+- Deployment on AWS using Docker and Kubernetes
+
+
+## Prerequisites
+- Java 11
+- Node.js
+- Docker
+- Kubernetes
+
+## Getting Started
+
+### Backend
+1. Navigate to the backend directory:
+   ```sh
+   cd backend
+2. Build the Spring Boot application:
+   ```mvn clean install
+3. Run the application:
+   ```java -jar target/ecommerce-backend.jar
+
+# Frontend
+
+1. Navigate to the frontend directory:
+   ```cd frontend
+2. Install dependencies:
+   ```npm install
+3. Run the application:
+   ```npm start
+   
+# Docker
+
+1. Build and run Docker containers:
+   ```docker-compose up --build
+# Kubernetes
+1. Apply Kubernetes configurations:
+    ```kubectl apply -f kubernetes/deployment.yaml
+    ```kubectl apply -f kubernetes/service.yaml
