@@ -48,5 +48,4 @@ This project is a full-stack e-commerce website developed using Java (Spring Boo
 1. Apply Kubernetes configurations:
    ```sh
    kubectl apply -f kubernetes/deployment.yaml
-   ```sh
    kubectl apply -f kubernetes/service.yaml
