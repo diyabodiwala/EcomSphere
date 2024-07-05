@@ -21,24 +21,32 @@ This project is a full-stack e-commerce website developed using Java (Spring Boo
    ```sh
    cd backend
 2. Build the Spring Boot application:
-   ```mvn clean install
-3. Run the application:
-   ```java -jar target/ecommerce-backend.jar
+   ```sh
+   mvn clean install
+4. Run the application:
+   ```sh
+   java -jar target/ecommerce-backend.jar
 
 # Frontend
 
 1. Navigate to the frontend directory:
-   ```cd frontend
-2. Install dependencies:
-   ```npm install
-3. Run the application:
-   ```npm start
+   ```sh
+   cd frontend
+3. Install dependencies:
+   ```sh
+   npm install
+5. Run the application:
+   ```sh
+   npm start
    
 # Docker
 
 1. Build and run Docker containers:
-   ```docker-compose up --build
+   ```sh
+   docker-compose up --build
 # Kubernetes
 1. Apply Kubernetes configurations:
-    ```kubectl apply -f kubernetes/deployment.yaml
-    ```kubectl apply -f kubernetes/service.yaml
+   ```sh
+   kubectl apply -f kubernetes/deployment.yaml
+   ```sh
+   kubectl apply -f kubernetes/service.yaml
